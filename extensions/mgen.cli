@@ -1,0 +1,9 @@
+batch
+/system-property=socle.activation.patch-JBEAP-14641:add(value="true")
+/system-property=socle.container.type:add(value="jboss")
+/system-property=frameworkAFJ.global.properties.path:add(value="/tmp/couloir_exec/config/JADE_filesref.properties")
+/system-property=wildfly.config.url:add(value="file:///tmp/couloir_exec/config/wildfly-config.xml")
+/system-property=javax.net.ssl.trustStore:add(value="/tmp/couloir_exec/truststore/mecaTrustStore.p12")
+/system-property=javax.net.ssl.keyStoreType:add(value="PKCS12")
+/system-property=javax.net.ssl.trustStorePassword:add(value="changeit")
+run-batch
